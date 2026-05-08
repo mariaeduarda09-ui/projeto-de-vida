@@ -16,5 +16,6 @@ for(let i=0;i <botoes.lenght,i++){
 
 const contadores = document.querySelectorAll(".contador");
 const tempoObjetivo1 = New Date("2026-05-08T00:00:00");
+let tempoAtual = New Date ();
 
-contadores[0].textContent = tempoObjetivo1;
+contadores[0].textContent = tempoObjetivo1 = tempoAtual;
